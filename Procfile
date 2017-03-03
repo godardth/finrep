@@ -1,1 +1,1 @@
-web: gunicorn finrep.wsgi --log-file -
+web: gunicorn futures.wsgi --log-file -
