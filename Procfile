@@ -1,1 +1,1 @@
-web: gunicorn fullplanner.wsgi --log-file -
+web: gunicorn finrep.wsgi --log-file -
