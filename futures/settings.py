@@ -78,9 +78,6 @@ WSGI_APPLICATION = 'futures.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
-
-
-AUTH_USER_MODEL = 'core.User'
 DATABASES = settings_local.databases
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
