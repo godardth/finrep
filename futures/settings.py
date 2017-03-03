@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'fullplanner-godardth.c9users.io',
+    'finrep.herokuapp.com'
 ]
 
 
